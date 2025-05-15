@@ -61,10 +61,11 @@ plt.xticks(rotation = 0);
 #draws gridlines along y axis
 # plt.grid(axis='y');
 
-#display the plot
-plt.show();
-
-
+if __name__ == "__main__":
+    #display the plot
+    plt.show();
+    #pause so terminal doesn't close
+    input("Press Enter to exit...")
 
 
 
